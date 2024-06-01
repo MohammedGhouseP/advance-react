@@ -1,0 +1,42 @@
+/* src/Counter.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .counter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .resetButton {
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .count {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
