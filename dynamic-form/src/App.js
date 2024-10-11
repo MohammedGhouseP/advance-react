@@ -1,11 +1,17 @@
 import './App.css';
-import Input from './Input.jsx'
+// import Input from './Input.jsx'
+// import Comp from './Comp.js'
+import React, { useState } from 'react';
 
-function App() {
+const App = ()=> {
+  const [val, setVal] = useState(0);
   return (
-    <div className="App">
-      <Input/>     
+    <div>
+        {/* <h2>name: {val.name}</h2>
+        <h2>ban: {val.isBanned.toString()}</h2> */}
+        <h2>{val}</h2>
+        
     </div>
-  );
+  )
 }
 export default App;

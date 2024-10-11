@@ -9,12 +9,10 @@ export function BulbContextProvider(props) {
 
   const switchOn = () => {
     setIsOn(true)
-    console.log("bulb is on")
   };
 
   const switchOff = () => {
     setIsOn(false)
-    console.log("Bulb is off")
   };
 
   return (

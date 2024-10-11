@@ -1,16 +1,12 @@
-import logo from './logo.svg';
+import Focus from './Focus.jsx'
 import './App.css';
-import Counter from './Counter.js';
 
 function App() {
   return (
     <div className="App">
-      <Counter/>     
-    
-      
+     <Focus/>
     </div>
   );
 }
 
 export default App;
-

@@ -10,15 +10,15 @@ export function AuthContextProvider(props) {
 
   // Function to log in
 
-  const login = () => {
-    setIsLoggedIn(true);
+  const login = () =>{ setIsLoggedIn(true);
     console.log("logIn")
   }
 
   // Function to log out
 
-  const logout = () => {setIsLoggedIn(false)
+  const logout = () => {setIsLoggedIn(false);
     console.log("logOut")
+
   }
 
   return (

@@ -10,7 +10,7 @@ export default function LeftSidebar() {
     <div className="left-sidebar">
       <p>Left Sidebar</p>
       <h4> Is User Logged In : {isLoggedIn ? "Yes" : "No"}</h4>
-      <button onClick={login}>LOGIN </button>
+      <button onClick={login}>LOGIN</button>
       <button onClick={logout}>LOGOUT</button>
     </div>
   );
